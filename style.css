@@ -1,5 +1,11 @@
+/*Selecionou todo o conteúdo html para editar o padding.*/
+*{
+    padding: 0;
+}
+
 /*Vai editar fundo, cor das letras e formato de letras que estiverem na tag body (corpo).*/
 body {
+    margin: 0;
     background-color: #000000;
     color: #f6f6f6;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,19 +22,49 @@ ul{
 }
 
 /*Vai editar as letras que estiverem na tag a (âncora), única diferença é que trocou pelas classes*/
-.instagram{
-    color: #00FFD8;
-}
-
-.github{
-    color: #00FFD8;
-}
-
-.linkedin{
-    color: #00FFD8;
+a{
+    color: white;
+    text-decoration: none;
 }
 
 /*Vai editar as letras que estiverem na tag span (marcador de texto)*/
 span{
     color: #00FFD8;
 }
+
+.imagem{
+    width:250%;
+    height:250%;
+    margin-right: 100%;
+}
+
+.frases{
+    margin-left: 0%;
+    margin-right: 20%;
+}
+
+main{
+    margin: 10%;
+    margin-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+ 
+/*Aba menu*/
+button{
+    height: 0%;
+    width: 1%;
+    margin-top: 1%;
+    margin-right: 0%;
+    margin-left: 95%;
+    background: none;
+    border: none;
+    
+}
+
+.icone{
+    width:280%;
+    height:280%;
+}
+
